@@ -60,6 +60,19 @@ body {
     grid-template-rows: repeat(8, 1fr);
 }
 
+.hero img {    
+    width: 100%;
+    height: auto;     
+}
+
+@supports(object-fit: cover){
+    .hero img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
 .hero .info-content {
     grid-column: 7 / 10;
     grid-row: 3 / 7;
