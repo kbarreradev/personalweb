@@ -50,13 +50,16 @@ body {
 
 /* MAIN SECTION */
 .hero {
-    height: 80vh;
-    background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .8)) url(../images/perfil.jpg);
+    
+    min-height: 100%;
+    background-image: linear-gradient(rgba(16, 16, 16, .8));
+    
     background-size: cover;
+    background-position: center;
     max-width: 100%;    
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(11, 1fr);
 }
 
 
